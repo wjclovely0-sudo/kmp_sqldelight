@@ -1,0 +1,19 @@
+CREATE TABLE Note (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    content TEXT NOT NULL,
+    createdAt INTEGER NOT NULL
+);
+
+insertNote:
+INSERT INTO Note(title, content, createdAt)
+VALUES (?, ?, ?);
+
+selectAllNotes:
+SELECT * FROM Note ORDER BY createdAt DESC;
+
+deleteNoteById:
+DELETE FROM Note WHERE id = ?;
+
+updateNote:
+UPDATE Note SET title = ?, content = ? WHERE id = ?;
