@@ -1,4 +1,4 @@
-rootProject.name = "DB"
+rootProject.name = "kmp_sqldelight"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {

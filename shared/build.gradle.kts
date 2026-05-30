@@ -64,7 +64,7 @@ kotlin {
 sqldelight {
     databases {
         create("AppDatabase") {
-            packageName.set("com.example.db")
+            packageName.set("com.example.kmp_sqldelight")
             dialect(libs.sqldelight.sqliteDialect)
         }
     }

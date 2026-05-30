@@ -1,6 +1,7 @@
 package com.example.db
 
 import app.cash.sqldelight.db.SqlDriver
+import com.example.kmp_sqldelight.AppDatabase
 import kotlin.time.Clock
 
 class NoteRepository(driver: SqlDriver) {
